@@ -1,0 +1,15 @@
+Package: com.LBlackmail.Pokepad
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: LBlackmail
+Depends: winterboard
+Filename: ./debs//com.lblackmail.pokepad_1.0_iphoneos-arm.deb
+Size: 145532
+MD5sum: 971816112351c63e926a6f521b5e3ffa
+SHA1: 574d0e6e39302248a81ec03f7779a7ba56d97217
+SHA256: cf7a1a0dc735c12c82c5f0232365912b2fe77d09b22ad300606c4d38cd6aaca4
+Section: Themes (Springboard)
+Description: Pokéball Keypad
+Author: LBlackmail
+Name: Pokepad
+
