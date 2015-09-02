@@ -1,0 +1,9 @@
+Package: com.LBlackmail.Pokepad
+Name: Pokepad
+Depends: winterboard
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Pokéball Keypad
+Maintainer: LBlackmail
+Author: LBlackmail
+Section: Themes (Springboard)
