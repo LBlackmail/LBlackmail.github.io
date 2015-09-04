@@ -8,20 +8,24 @@
 		</firmware>
 	</compatibility>
 	<dependencies>
-		<package>mobilesubstrate</package>
-		<package>winterboard</package>
+		<package>Winterboard</package>
 	</dependencies>
 	<descriptionlist>
 		<description>A keypad theme featuring Pokéballs.</description>
+		<description><![CDATA[
+		Tested on ios 7.1.2 & 8.4<br/>
+		iPhone 5s & iPad Mini 2.
+		]]>
+		</description>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
 			<description>On the lockscreen.</description>
-			<image>cydia.jpg</image>
+			<image>Lockscreen.PNG</image>
 		</screenshot>
 		<screenshot>
 			<description>On the dialer</description>
-			<image>cydia.jpg</image>
+			<image>Dialer.PNG</image>
 		</screenshot>
 	</screenshots>
 	<changelog>
