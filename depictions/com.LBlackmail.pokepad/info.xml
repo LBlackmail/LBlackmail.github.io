@@ -1,0 +1,37 @@
+<package>
+	<id>com.LBlackmail.Pokepad</id>
+	<name>Poképad</name>
+	<version>1.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+		<package>winterboard</package>
+	</dependencies>
+	<descriptionlist>
+		<description>A keypad theme featuring Pokéballs.</description>
+		</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>On the lockscreen.</description>
+			<image>cydia.jpg</image>
+		</screenshot>
+		<screenshot>
+			<description>On the dialer</description>
+			<image>cydia.jpg</image>
+		</screenshot>
+	</screenshots>
+	<changelog>
+		<change>Initial release.</change>
+	</changelog>
+	<links>
+		<link>
+			<name>/r/jailbreak</name>
+			<url>https://www.reddit.com/r/jailbreak</url>
+		</link>
+	</links>
+</package>
