@@ -1,26 +1,16 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html>
 <head>
-  <meta charset="utf-8">
-  <title>image_random</title>
-  <script>
-    function getImage(){
-      //以下の画像群からランダムで1つ選択
-      var arr = [
-        '00001.png',
-        '00002.png',
-        '00003.png'
-      ];
-      var obj = document.getElementById("image_random");
-      var a = Math.floor(Math.random() * arr.length);
-      obj.src = arr[a];
-    }
-  </script>
+	<title>New Tab</title>
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <h1>image_random</h1>
-  <p>1枚目の画像タップで2枚目がランダムに変化</p>
-  <img src="00001.png" width="200" onclick="getImage()"><br />
-  <img id="image_random" src="00001.png" width="200">
+		<h1>Random Picture of Us:</h1>
+		<div>
+			<button id="random">Show Me Random Picture! <img src="images/cat.png"/></button>
+	</div>
+		<div id="container"></div>
+
 </body>
 </html>

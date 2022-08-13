@@ -1,0 +1,18 @@
+{
+     "manifest_version": 2,
+     "name": "Random Image Generator",
+     "description": "Generates a random image when opening a new tab",
+     "version": "0.3",
+     "author": "Brandon Mitchell",
+
+     "browser_action": {
+          "default_icon": "images/cat-mini-icon.png",
+          "default_title": "Random image"
+     },
+
+     "chrome_url_overrides" : {
+          "newtab": "index.html"
+     },
+
+     "permissions": ["activeTab"]
+}
