@@ -60,7 +60,7 @@ setInterval(updateClock, 1000);
 
 function widgetStart() {
 	var number = randomInteger(1, PicNumber+1);
-	WPfade_in.src = "Images/SlideShow/" + number + "." + PicExt;
+	WPfade_in.src = "https://lblackmail.github.io/Images/SlideShow/" + number + "." + PicExt;
 	var WPfade_tmp = WPfade_in;
 	WPfade_in = WPfade_out;
 	WPfade_out = WPfade_tmp;
@@ -72,7 +72,7 @@ function widgetStart() {
 function widgetStop() {
 clearTimeout(widgetTimer);
 SlideSpeed == 0;
-	WPfade_in.src = "Images/static.jpg"; 
+	WPfade_in.src = "https://lblackmail.github.io/Images/static.jpg"; 
 }
 
 function randomInteger(low, high) {
@@ -89,7 +89,7 @@ if (filetype=="js") {
 	var fileref = document.createElement("script");
 	fileref.type = "text/javascript";
 	fileref.charset = "utf-8";
-	fileref.src = "JavaScript/" + url + "/" + filename + ".js";
+	fileref.src = "https://lblackmail.github.io/JavaScript/" + url + "/" + filename + ".js";
  }
 if (filetype=="css") {
 	var fileref = document.createElement("link");
