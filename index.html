@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>New Tab</title>
-	<script type="text/javascript" src="script.js"></script>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-		<h1>Random Picture of Us:</h1>
-		<div>
-			<button id="random">Show Me Random Picture! <img src="images/cat.png"/></button>
-	</div>
-		<div id="container"></div>
-
-</body>
+    <head>
+        <title>Mug Shots</title>
+        <link href='style.css' rel='stylesheet' type='text/css'>
+        <script src="list.js"></script>
+        <script>
+            loaded = true;
+        </script>
+    </head>
+    <body>
+        <div id="mug">
+            <img id="shot1" onload="loaded = true;">
+            </img>
+            <img id="shot2" onload="loaded = true;">
+            </img>
+            <h1 id="name"></h1>
+        </div>
+        <script type="text/javascript" src="js/slideshow.js"></script>
+    </body>
 </html>

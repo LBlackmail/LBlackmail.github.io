@@ -1,48 +1,34 @@
-body {
-     background-image: url("images/background.jpg");
-     background-repeat: repeat;
-     color: white;
-     font-family: "Segoe UI", Tahoma, sans-serif;
+@import url(http://fonts.googleapis.com/css?family=Bangers);
+
+body
+{
+    margin:0;
+    padding:0;
 }
 
-h1 {
-     font-size: 6em;
+img
+{
+    transition: opacity 1s ease-in-out;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    height: 70%;
+    padding:0;
 }
-
-h1, h2 {
-     color: white;
-}
-
-h1, #container {
-     text-align: center;
-}
-
-#container {
-  height: 800px;
-  width: 1200px;
-  background-position: center;
-  margin-left: auto;
-  margin-right: auto;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-div {
-  margin-left: auto;
-  margin-right: auto;
-  width: 600px;
-  text-align: center;
-
-}
-
-button {
-  font-size: 1em;
-  font-family: "Segoe UI", Tahoma, sans-serif;
-  margin-bottom: 10px;
-}
-
-img {
-  height: 20px;
-  width: 20px;
+h1
+{
+    margin:0;
+    padding:0;
+    font-family: 'Bangers';
+    position: absolute;
+    font-size: 6em;
+    top: 80%;
+    /*left: 40%;*/
+    width:99%;
+    text-align: center;
+    z-index: 50;
+    text-shadow: 1px 1px 0px rgba(255,255,255,0.5),
+    -1px 1px 0px rgba(255,255,255,0.5),
+    1px -1px 0px rgba(255,255,255,0.5),
+    -1px -1px 0px rgba(255,255,255,0.5);
 }

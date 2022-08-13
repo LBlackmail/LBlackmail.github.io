@@ -1,9 +1,10 @@
-# random-image-generator-chrome-extension
-Upon opening a new tab, there will display a random image provided however many images you have in your images folder
+# Mugshots
+A slideshow to randomly display images from a folder on streams via CLRBrowser plugin.
 
+1. Put images into the "img" folder.
+2. Refresh the list using the refreshlist.bat
+3. Launch index.html in a browser or add as a CLRBrowser source to use in-stream.
 
-1. Clone or download the files: manifest.json, style.css, script.js, and index.html
+Use the Mugmass branch to randomly choose an image from the folder, meant for use in giveaways.
 
-2. Add a folder inside the folder you saved your files to, and add all images in jpeg format
-
-3. Open in browser and press button or refresh the page to generate a new random image
+![alt text](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
